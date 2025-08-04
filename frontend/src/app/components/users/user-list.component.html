@@ -1,0 +1,6 @@
+<h2 class="text-xl font-bold bg-red-500">Lista Utilizatori</h2>
+<ul class="list-disc ml-6 mt-2">
+  <li *ngFor="let user of users">
+    {{ user.id }} - {{ user.username }}
+  </li>
+</ul>
